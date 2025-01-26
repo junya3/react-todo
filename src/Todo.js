@@ -2,8 +2,11 @@ import React from 'react';
 
 const Todo = ({ todo }) => {
   return (
-    <div key={todo.id}>
-      {todo.id}.{todo.name}
+    <div>
+      <lebel>
+        <input type="checkbox" checked={todo.complated} />
+      </lebel>
+      <p>{todo.name}</p>
     </div>
   );
 };
