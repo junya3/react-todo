@@ -3,9 +3,9 @@ import React from 'react';
 const Todo = ({ todo }) => {
   return (
     <div>
-      <lebel>
+      <label>
         <input type="checkbox" checked={todo.complated} readOnly />
-      </lebel>
+      </label>
       <p>{todo.name}</p>
     </div>
   );
